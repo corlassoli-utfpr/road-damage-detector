@@ -1,0 +1,16 @@
+================================================================================
+MANIFESTO DE TREINAMENTO - Faster R-CNN (RDD2022)
+================================================================================
+Data/Hora de Conclusão: 2026-11-10 14:50:45
+Arquitetura: Faster R-CNN ResNet-50 FPN
+Número de Classes: 5 (Background + 4 classes de danos)
+
+Arquivos de Pesos (modelos/weights/faster/):
+  - modelo_ultimo.pth (158.1 MB) - Pesos treinados no RDD2022
+
+Configurações do Treino:
+  - Épocas Concluídas: 10
+  - Batch Size: 2
+  - Limite de Imagens: 4000
+  - Otimizador: AdamW (lr=1e-4)
+================================================================================

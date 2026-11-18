@@ -1,0 +1,24 @@
+================================================================================
+MANIFESTO DO ÚLTIMO TESTE COMPARATIVO (YOLOv8 vs Faster R-CNN)
+================================================================================
+Data/Hora de Execução: 2026-11-17 17:36:52
+Diretório de Imagens de Teste: imagens_teste/ (20 imagens processadas)
+Diretório de Saída: resultados/
+
+Modelos Avaliados:
+  - YOLOv8:       modelos/weights/yolo/best.pt (Treinado em 17/11/2026, 10 épocas)
+  - Faster R-CNN: modelos/weights/faster/modelo_ultimo.pth (10 épocas)
+
+Convenção Visual das Imagens Comparativas:
+  - Lado Esquerdo (Caixas Vermelhas): Detecções do YOLOv8
+  - Lado Direito  (Caixas Azuis):     Detecções do Faster R-CNN
+
+Classes RDD2022 Detectadas:
+  - D00: Rachadura Longitudinal
+  - D10: Rachadura Transversal
+  - D20: Rachadura Tipo Jacaré / Crocodilo
+  - D40: Buraco / Panela no Pavimento
+
+Histórico:
+  - Testes anteriores preservados em: archive/records/
+================================================================================

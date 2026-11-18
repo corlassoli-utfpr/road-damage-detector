@@ -1,0 +1,9 @@
+Manifesto FASTER
+===============
+Data/Hora: 2026-11-10 14:50:45
+Arquivos de checkpoint:
+  - modelo_ultimo.pth
+Épocas: 10
+Batch: 2
+Limite: 4000
+

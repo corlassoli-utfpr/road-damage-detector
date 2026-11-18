@@ -1,0 +1,8 @@
+Manifesto YOLO
+=============
+Data/Hora: 2026-11-10 14:50:45
+Arquivos de checkpoint:
+  - best.pt
+  - last.pt
+Épocas: 10
+Batch: 3

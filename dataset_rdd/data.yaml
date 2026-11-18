@@ -1,0 +1,8 @@
+names:
+  0: D00
+  1: D10
+  2: D20
+  3: D40
+path: C:\Users\JP\Downloads\teste_modelos_rdd\dataset_rdd
+train: train/images
+val: val/images

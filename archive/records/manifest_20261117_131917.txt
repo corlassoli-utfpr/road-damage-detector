@@ -1,0 +1,5 @@
+Manifesto do Último Teste Comparativo
+========================================
+Data/Hora: 2026-11-17 13:08:38
+Imagens testadas: 20
+Destino: resultados/

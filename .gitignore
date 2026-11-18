@@ -1,0 +1,62 @@
+# ==============================================================================
+# .gitignore para Projeto RDD2022 (YOLOv8 vs Faster R-CNN)
+# ==============================================================================
+
+# Python / Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Pastas Temporárias de Treino e Caches
+.treino_temp/
+runs/
+treinos/
+*.tmp
+*.log
+
+# Dataset (pesado, milhares de imagens - gerado via download ou link)
+dataset_rdd/train/images/
+dataset_rdd/train/labels/
+dataset_rdd/val/images/
+dataset_rdd/val/labels/
+# Mantém o arquivo de configuração de classes e caminhos
+!dataset_rdd/data.yaml
+
+# Arquivos de pesos que excedem o limite de 100 MB do GitHub
+# (O Faster R-CNN tem ~158 MB; deve ser disponibilizado via Releases ou nuvem)
+*.pth
+modelos/weights/faster/*.pth
+archive/colab/*.pth

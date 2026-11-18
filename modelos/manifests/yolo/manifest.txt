@@ -1,0 +1,23 @@
+================================================================================
+MANIFESTO DE TREINAMENTO - YOLOv8 (RDD2022)
+================================================================================
+Data/Hora de Conclusão: 2026-11-17 16:56:56
+Dispositivo: NVIDIA GeForce GTX 1660 Ti (CUDA:0)
+Tempo Total de Treino: 1.860 horas (10 épocas)
+Resolução de Entrada: 480x480 / 640x640
+
+Arquivos de Pesos (modelos/weights/yolo/):
+  - best.pt    (30.3 MB) - Melhores pesos alcançados na validação
+  - last.pt    (30.3 MB) - Checkpoint final da época 10
+  - yolov8s.pt (21.5 MB) - Pesos base pré-treinados oficiais COCO
+
+Resumo do Modelo:
+  - Camadas: 73
+  - Parâmetros: 3,133,436 (8.6 GFLOPs)
+
+Métricas de Validação (Época 10):
+  - D00 - Rachadura Longitudinal:  P: 0.515 | R: 0.419 | mAP50: 0.404 | mAP50-95: 0.207
+  - D10 - Rachadura Transversal:   P: 0.475 | R: 0.432 | mAP50: 0.403 | mAP50-95: 0.183
+  - D20 - Jacaré (Crocodilo):     P: 0.528 | R: 0.547 | mAP50: 0.541 | mAP50-95: 0.282
+  - D40 - Buraco / Panela:        P: 0.436 | R: 0.282 | mAP50: 0.272 | mAP50-95: 0.107
+================================================================================
