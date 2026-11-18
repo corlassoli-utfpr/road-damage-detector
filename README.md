@@ -7,7 +7,7 @@ Projeto unificado para treinamento, gerenciamento de checkpoints e testes compar
 ## 📁 Estrutura do Projeto
 
 ```text
-teste_modelos_rdd/
+road-damage-detector/
 ├── README.md               # Documentação completa do projeto
 ├── requirements.txt        # Dependências do projeto (PyTorch, Ultralytics, etc.)
 ├── .gitignore              # Regras de exclusão para o Git (ignora dados brutos e arquivos >100MB)
@@ -36,8 +36,8 @@ teste_modelos_rdd/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-   cd SEU_REPOSITORIO
+   git clone https://github.com/corlassoli-utfpr/road-damage-detector.git
+   cd road-damage-detector
    ```
 
 2. **Instale as dependências:**
@@ -62,7 +62,7 @@ Os modelos detectam 4 categorias principais de danos em vias asfálticas:
 
 ## 🚀 Como Treinar os Modelos
 
-Execute os comandos a partir da raiz do projeto (`teste_modelos_rdd`). O padrão do treinador é de **10 épocas**.
+Execute os comandos a partir da raiz do repositório (`road-damage-detector`). O padrão do treinador é de **10 épocas**.
 
 ### 1. YOLOv8
 ```bash
